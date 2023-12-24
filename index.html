@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==== LINK CSS3 ====-->
+    <link rel="stylesheet" href="./assets/sass/style.css">
+
+    <title>IMC</title>
+</head>
+<body>
+    <main class="conatiner">
+        <form class="content-form">
+
+            <!--Titutlo do programa-->
+            <h1>Calculadora - <span class="color">IMC</span></h1>
+
+            <!-- label e input {Nome do usuario}-->
+            <label for="nome">Nome:</label>
+            <input type="text" name="none" placeholder="Digite o seu nome" required id="ipNome" >
+
+            <!-- label e input {Peso do usario}-->
+            <label for="peso">Peso:</label>
+            <input type="number" name="peso" placeholder="Digite o seu peso" required id="ipPeso" >
+
+            <!-- label e input {Altuar do usuario}-->
+            <label for="altura">Altura:</label>
+            <input type="number" name="altura" placeholder="Digite a tua altura" required id="ipAltura" >
+
+            <!--botão que serve para calcular o IMC -->
+            <button id="btnCalcular">Calcular</button>
+
+            <!--O resultado do program aparece aqui-->
+            <div id="resultado"></div>
+        </form>
+    </main>
+
+    <!--==== SCRIPT JS ====-->
+    <script src="./assets/js/main.js"></script>
+
+    <!--
+        Este programa foi criado pelo Emanuel Malungo 24/12/2023
+    -->
+</body>
+</html>
